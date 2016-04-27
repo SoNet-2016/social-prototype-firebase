@@ -1,0 +1,8 @@
+{
+  "id": "amici-nostri-margherita",
+  "name": "Margherita",
+  "pizzeria": "Amici Nostri",
+  "address": "Corso Vittorio Emanuele II, 100, Torino",
+  "rating": 3,
+  "image" : "../images/pizza/amici-nostri-margherita.jpg"
+}

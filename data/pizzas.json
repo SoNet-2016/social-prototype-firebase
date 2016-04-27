@@ -1,0 +1,50 @@
+[
+  {
+    "id": "amici-nostri-margherita",
+    "name": "Margherita",
+    "pizzeria": "Amici Nostri",
+    "address": "Corso Vittorio Emanuele II, 100, Torino",
+    "rating": 3,
+    "image" : "../images/pizza/amici-nostri-margherita.jpg"
+  },
+  {
+    "id": "amici-nostri-diavola",
+    "name": "Diavola",
+    "pizzeria": "Amici Nostri",
+    "address": "Corso Vittorio Emanuele II, 100, Torino",
+    "rating": 4,
+    "image" : "../images/pizza/amici-nostri-diavola.jpg"
+  },
+  {
+    "id": "amici-nostri-margherita-integrale",
+    "name": "Margherita (integrale)",
+    "pizzeria": "Amici Nostri",
+    "address": "Corso Vittorio Emanuele II, 100, Torino",
+    "rating": 5,
+    "image" : "../images/pizza/amici-nostri-margherita-integrale.jpg"
+  },
+  {
+    "id": "occupy-margherita",
+    "name": "Margherita",
+    "pizzeria": "Occupy",
+    "address": "Via Legnano, 15, Torino",
+    "rating": 3,
+    "image" : "../images/pizza/occupy-margherita.jpg"
+  },
+  {
+    "id": "occupy-piccantina",
+    "name": "Piccantina",
+    "pizzeria": "Occupy",
+    "address": "Via Legnano, 15, Torino",
+    "rating": 5,
+    "image" : "../images/pizza/occupy-piccantina.jpg"
+  },
+  {
+    "id": "occupy-salsiccia-cime",
+    "name": "Salsiccia e Cime",
+    "pizzeria": "Occupy",
+    "address": "Via Legnano, 15, Torino",
+    "rating": 5,
+    "image": "../images/pizza/occupy-salsiccia-cime.jpg"
+  }
+]

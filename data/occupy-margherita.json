@@ -1,0 +1,8 @@
+{
+  "id": "occupy-margherita",
+  "name": "Margherita",
+  "pizzeria": "Occupy",
+  "address": "Via Legnano, 15, Torino",
+  "rating": 3,
+  "image" : "../images/pizza/occupy-margherita.jpg"
+}
