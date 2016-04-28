@@ -13,7 +13,5 @@ angular.module('pizzApp.pizza.details', ['ngRoute', 'pizzApp.pizza'])
 // Controller
 .controller('PizzaDetailCtrl', ['$scope', '$routeParams', 'Pizza',
     function($scope, $routeParams, Pizza) {
-        Pizza.getData($routeParams.pizzaId).then(function(data) {
-            $scope.pizza = data;
-        });
+        $scope.pizza = Pizza.getPizza($routeParams.pizzaId);
 }]);

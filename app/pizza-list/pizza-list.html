@@ -2,7 +2,7 @@
     <div class="col-xs-12">
         <ul class="media-list">
             <li class="media" ng-repeat="pizza in pizzas | orderBy:orderProp">
-                <a class="plain-link" href="#/pizzas/{{pizza.id}}">
+                <a class="plain-link" href="#/pizzas/{{pizza.$id}}">
                     <div class="media-left">
                         <img class="media-object" ng-src="{{pizza.image}}" alt="{{pizza.name}}">
                     </div>

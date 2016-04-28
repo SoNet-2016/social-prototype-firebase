@@ -13,9 +13,6 @@ angular.module('pizzApp.pizza.list', ['ngRoute', 'pizzApp.pizza'])
 // Controller
 .controller('PizzaListCtrl', ['$scope', 'Pizza',
     function($scope, Pizza) {
-        Pizza.getData('pizzas').then(function(data) {
-            console.log(data);
-            $scope.pizzas = data;
-        });
+        $scope.pizzas = Pizza.getPizzas();
         $scope.orderProp = 'id';
 }]);
